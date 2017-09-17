@@ -4,9 +4,13 @@ from UIFunc import UIFunc
 import pickle
 
 class Container(UIFunc) :
+	'''This is a container class. Nothing to add'''
+
+	## Default filename for file operations
 	filename = 'data.pickle'
 	def __init__(self) :
 		super().__init__()
+		## Actual data storage
 		self.p_storage = [] # container[*cl_employee_card]				
 		# Add description for interface methods. Attrubutes attached to
 		# class methods, not to the instance
@@ -17,9 +21,12 @@ class Container(UIFunc) :
 		setattr(Container.interface_clear_list,self.p_desc_field,"Clear list");
 		pass
 
-	def interface_add_element (self) :		
+	def interface_add_element (self) :	
+		''' Requests data for attributes from stdin. In real life it would be 	
+		 	much more convinient to break up attribute setting and data request 
+			either via method reference or other techniques '''
 		print("Adding new element")		
-		# Here we could also invoke inheritors like it's done in App
+		## Here we could also invoke inheritors like it's done in App
 		# to build complete list of all available classes and provide
 		# greater flexibility. Also it allow to avoid code changes
 		# when new classes are added
@@ -32,6 +39,7 @@ class Container(UIFunc) :
 		pass
 
 	def interface_print_list (self) :		
+		'''Output list contents to SDTOUT'''
 		print("List of available cards")
 		for obj in self.p_storage:
 			obj["obj"].print_data()
@@ -40,6 +48,7 @@ class Container(UIFunc) :
 		pass
 
 	def interface_save_to_file (self) :		
+		'''Data is saved into fixed location: defined in filename attribute'''
 		print("Saving data")
 		with open(self.filename, 'wb') as f:
 			pickle.dump(self.p_storage, f)
@@ -47,6 +56,7 @@ class Container(UIFunc) :
 		pass
 
 	def interface_load_from_file (self) :		
+		'''Data is loaded from fixed location: defined in filename attribute'''
 		print("Loading from file")
 		with open(self.filename, 'rb') as f:
 			self.p_storage = pickle.load(f)		
@@ -54,7 +64,7 @@ class Container(UIFunc) :
 		pass	
 
 	def interface_clear_list (self) :		
-		"""Clear list"""
+		'''Clear list'''
 		print("Clearing list")
 		del self.p_storage[:]
 		# returns 

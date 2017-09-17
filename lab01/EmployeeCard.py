@@ -1,6 +1,7 @@
 from PersonalCard import *
 class EmployeeCard (PersonalCard) :
-	'''(NULL)'''
+	'''This class extends Personal card with additional attributes.'''
+	'''All other logic is implemented elsewhere'''
 	def __init__(self) :
 		# Call superclass to fill attributes
 		super().__init__()		
