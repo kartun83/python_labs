@@ -11,7 +11,7 @@ class UIFunc:
 
 	## All methods that are intended to be included in text menu MUST
 	## be declard using this prefix
-	p_prefix	 = "interface_"
+	p_prefix = "interface_"
 	
 	def __init__(self):		
 		pass
@@ -20,7 +20,7 @@ class UIFunc:
 		## Build functions list available from outside
 		
 		# Lambdas for making longstory short
-		is_function = lambda func: True if callable(func[1]) and func[0].startswith(p_prefix) else False
+		is_function = lambda func: True if callable(func[1]) and func[0].startswith(UIFunc.p_prefix) else False
 		description = lambda func: getattr(func[1], self.p_desc_field)
 
 		result = []		

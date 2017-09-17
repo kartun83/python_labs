@@ -33,9 +33,9 @@ class App(UIFunc):
 		
 		pass
 	
-	def inheritors(self,klass):
-		''' This method collects all direct and indirect inheritors of a given class'''		
-		''' Using klass, as "class" is a reserved keyword'''
+	''' This method collects all direct and indirect inheritors of a given class'''		
+	''' Using klass, as "class" is a reserved keyword '''	
+	def inheritors(self,klass):		
 	    subclasses = set()
 	    work = [klass]
 	    while work:

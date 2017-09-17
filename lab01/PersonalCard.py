@@ -11,16 +11,16 @@ class PersonalCard :
 
 	def __init__(self) :
 		self.attributes = []
-		self.attributes.append( { "id": 1, self.p_desc_field: "First Name", self.p_val_field:"" } )
-		self.attributes.append( { "id": 2, self.p_desc_field: 'Last Name', self.p_val_field:"" } )
-		self.attributes.append( { "id": 3, self.p_desc_field: 'Birth date', self.p_val_field:"" } )
-		self.title = "PersonalCard"
+		self.attributes.append( { "id": 1, PersonalCard.p_desc_field: "First Name", PersonalCard.p_val_field:"" } )
+		self.attributes.append( { "id": 2, PersonalCard.p_desc_field: 'Last Name', PersonalCard.p_val_field:"" } )
+		self.attributes.append( { "id": 3, PersonalCard.p_desc_field: 'Birth date', PersonalCard.p_val_field:"" } )
+		self.title = "Personal Card"
 		pass
 
 	def request_data(self) :	
 		''' Requests data from STDIN. Nothing to add '''	
 		for attribute in self.attributes:
-			attribute[self.p_val_field] = input("{0}: \t".format(attribute[self.p_desc_field]))
+			attribute[PersonalCard.p_val_field] = input("{0}: \t".format(attribute[PersonalCard.p_desc_field]))
 			pass
 		pass
 
@@ -28,5 +28,5 @@ class PersonalCard :
 		''' Print list of all available attributes '''
 		print(self.title)
 		for attribute in self.attributes:
-			print('{}: {}'.format(attribute[self.p_desc_field], attribute[self.p_val_field]))
+			print('\t{}: \t{}'.format(attribute[PersonalCard.p_desc_field], attribute[PersonalCard.p_val_field]))
 			pass	
