@@ -1,0 +1,413 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"functions"
+			],
+			[
+				"pri",
+				"print_list"
+			],
+			[
+				"pr",
+				"printFunctions"
+			],
+			[
+				"pro",
+				"project_title"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"fu",
+				"functions"
+			],
+			[
+				"cl",
+				"cl_container"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"out",
+				"output_file"
+			],
+			[
+				"wr",
+				"write"
+			],
+			[
+				"mo",
+				"mod_filename"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"fil",
+				"filename"
+			],
+			[
+				"file",
+				"file_fixed"
+			],
+			[
+				"fi",
+				"file_contents"
+			],
+			[
+				"data",
+				"data_file"
+			],
+			[
+				"t",
+				"try\tTry/Except"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lab01.py",
+			"settings":
+			{
+				"buffer_size": 1057,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cl_container.py",
+			"settings":
+			{
+				"buffer_size": 835,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cl_employee_card.py",
+			"settings":
+			{
+				"buffer_size": 266,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cl_personal_card.py",
+			"settings":
+			{
+				"buffer_size": 542,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/kartun/soft/lab01/lab01_module/cl_personal_card.py",
+		"/home/kartun/soft/lab01/lab01_module/cl_employee_card.py",
+		"/home/kartun/soft/lab01/lab01_module/cl_container.py",
+		"/home/kartun/soft/lab01/cl_container.py",
+		"/home/kartun/soft/lab01/cl_employee_card.py",
+		"/home/kartun/soft/lab01/cl_personal_card.py",
+		"/home/kartun/soft/lab01/Diagram1.py",
+		"/home/kartun/soft/blackbox/Attachments_niemda@me.com_2016-12-26_00-12-17/gpsd_convert.py",
+		"/home/kartun/soft/blackbox_git/utils/gpsd_convert.py",
+		"/home/kartun/points_ikea.json",
+		"/home/kartun/qt_projects/perfectGym/test",
+		"/home/kartun/Documents/ratobor_test/turnir-test.html",
+		"/home/kartun/temp/OTA-MK71.2-capricorn-201704220551-201704230203-NIGHTLY/patch/system/build.prop.p",
+		"/home/kartun/qt_projects/perfectGym/QCombinableExcersise.h",
+		"/home/kartun/soft/blackbox/Attachments_niemda@me.com_2016-12-26_00-12-17/modified.json",
+		"/home/kartun/soft/blackbox/Attachments_niemda@me.com_2016-12-26_00-12-17/gpsd_log_in_ikea",
+		"/home/kartun/Downloads/gpx.xsd",
+		"/home/kartun/soft/blackbox/Attachments_niemda@me.com_2016-12-26_00-12-17/converted.gpx",
+		"/home/kartun/soft/proj4js-2.3.15/dist/proj4-src.js",
+		"/home/kartun/soft/blackbox/Attachments_niemda@me.com_2016-12-26_00-12-17/points_ikea.json"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"}",
+			"{",
+			"900913",
+			"gaus",
+			"><"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"]",
+			"[",
+			">\\r\\n<",
+			">/r/n<",
+			">\\r\\n<"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lab01.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1057,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								921,
+								921
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "cl_container.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								308,
+								308
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 44.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "cl_employee_card.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "cl_personal_card.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "lab01.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
